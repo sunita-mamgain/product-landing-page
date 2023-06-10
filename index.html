@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header id="header">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="Logo-image"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#video" class="nav-link">How It Works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--heading-->
+      <h2 id="heading">Handcrafted, home-made masterpieces</h2>
+
+      <!--email-->
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+
+        <!-- Start button-->
+        <input type="submit" value="GET STARTED" name="submit" id="submit" />
+      </form>
+      <!--services-->
+      <div id="services-container">
+        <!--premium materials-->
+        <div class="services">
+          <div class="services-icon">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+          </div>
+          <div class="services-text">
+            <h2 class="service-title">Premium Materials</h2>
+            <p class="service-description">
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+
+        <!-- Fast shipping -->
+        <div class="services">
+          <div class="services-icon">
+            <i class="fa-sharp fa-solid fa-truck"></i>
+          </div>
+          <div class="services-text">
+            <h2 class="service-title">Fast Shipping</h2>
+            <p class="service-description">
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+
+        <!-- Quality Assurance -->
+        <div class="services">
+          <div class="services-icon">
+            <i class="fa-solid fa-battery-full"></i>
+          </div>
+          <div class="services-text">
+            <h2 class="service-title">Quality Assurance</h2>
+            <p class="service-description">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--sevices end-->
+
+      <!--iframe-->
+      <div id="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <script
+          src="https://kit.fontawesome.com/12622ea775.js"
+          crossorigin="anonymous"
+        ></script>
+      </div>
+
+      <!--Cards-->
+
+      <!--card 1-->
+      <div id="prices">
+        <div class="card">
+          <div class="card-heading">
+            <h3>TENOR TROMBONE</h3>
+          </div>
+
+          <div class="card-price">
+            <h4>$600</h4>
+          </div>
+          <div class="card-description">
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+          </div>
+          <button>SELECT</button>
+        </div>
+
+        <!--card1 end-->
+
+        <!--card2-->
+
+        <div class="card">
+          <div class="card-heading">
+            <h3>BASS TROMBONE</h3>
+          </div>
+
+          <div class="card-price">
+            <h4>$900</h4>
+          </div>
+          <div class="card-description">
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+          </div>
+          <button>SELECT</button>
+        </div>
+        <!--card2 end-->
+
+        <!--card3-->
+
+        <div class="card">
+          <div class="card-heading">
+            <h3>VALVE TROMBONE</h3>
+          </div>
+
+          <div class="card-price">
+            <h4>$1200</h4>
+          </div>
+          <div class="card-description">
+            <p>Plays similar to a Trumpet</p>
+            <p>Great for jazz Bands</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+          </div>
+          <button>SELECT</button>
+        </div>
+        <!--card3 end-->
+      </div>
+
+      <!--Footer-->
+      <div class="footer">
+        <ul class="footer-links">
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Contact</li>
+        </ul>
+        <p>Copyright 2016, Original Trombones</p>
+      </div>
+    </main>
+  </body>
+</html>
