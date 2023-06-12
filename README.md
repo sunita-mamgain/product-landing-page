@@ -1,6 +1,5 @@
-# Tribute Page
-I have created a responsive tribute page on Mary Kom by
-using HTML and CSS.
+# Product Landing Page
+I have created a responsive product landing page using HTML and CSS.
 
 ## Installation
 
@@ -9,6 +8,6 @@ Clone the repo
    git clone https://github.com/sunita-mamgain/product-landing-page.git
    ```
 
-## Project
+## Check out this project
 
-![Project Image](https://www.example.com/cat.jpg)
+[Go to Product Landing Page](https://sunita-mamgain.github.io/product-landing-page/)
